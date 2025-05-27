@@ -9,3 +9,15 @@ azure-speech-language-lab/
 ├── speech-studio-notes.md
 ├── language-studio-notes.md
 └── conclusoes.md
+
+
+
+
+
+function dividir(a, b) {
+  if (b === 0) {
+    // Mensagem de erro personalizada
+    throw new Error("Não é possível dividir por zero. Verifique o valor de 'b'.");
+  }
+  return a / b;
+}
