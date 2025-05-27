@@ -1,0 +1,11 @@
+azure-speech-language-lab/
+│
+├── README.md
+├── /images
+│   ├── speech-studio-config.png
+│   └── language-studio-output.png
+├── /notebooks
+│   └── insights-pratica.ipynb (opcional, se usar Jupyter para anotações)
+├── speech-studio-notes.md
+├── language-studio-notes.md
+└── conclusoes.md
