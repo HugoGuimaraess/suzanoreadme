@@ -21,3 +21,15 @@ function dividir(a, b) {
   }
   return a / b;
 }
+
+
+
+
+
+
+from image_processor import load_image, resize_image, apply_blur
+
+img = load_image('foto.jpg')
+img = resize_image(img, (300, 300))
+img = apply_blur(img)
+img.show()
